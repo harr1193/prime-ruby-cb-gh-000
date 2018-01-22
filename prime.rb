@@ -9,4 +9,4 @@ def prime?(num)
    }
 end
 
-puts prime?(2032)
+puts prime?(-1)
