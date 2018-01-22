@@ -3,4 +3,4 @@ def prime?(num)
   (num > 1 && num % 2 != 0) ? (return true) : (return false)
 end
 
-puts prime?(17633)
+puts prime?(1763)
