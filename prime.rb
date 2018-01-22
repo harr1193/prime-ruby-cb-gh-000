@@ -1,6 +1,12 @@
 # Add  code here!
 def prime?(num)
-  (num > 1) && (num % 2 != 0) ? (return true) : (return false)
+  (2..num).to_.each { |i| 
+    if num % i == 0
+      return false
+    else
+      return true
+    end
+   } 
 end
 
 puts 1763 % 2 != 0
