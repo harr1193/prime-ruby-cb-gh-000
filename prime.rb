@@ -4,3 +4,4 @@ def prime?(num)
 end
 
 puts prime?(1763)
+puts 1763 % 2
