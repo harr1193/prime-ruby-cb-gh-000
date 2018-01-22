@@ -1,6 +1,6 @@
 # Add  code here!
 def prime?(num)
-  return false if num.negative?
+  return false if num.negative? || num == 0
   (2..num).to_a.each { |i|
     if num % i == 0
       return false
