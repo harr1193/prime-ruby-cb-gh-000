@@ -8,3 +8,5 @@ def prime?(num)
     end
    }
 end
+
+puts 1.negative?
