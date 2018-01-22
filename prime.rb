@@ -9,4 +9,4 @@ def prime?(num)
    }
 end
 
-puts 1.negative?
+puts -1.negative?
